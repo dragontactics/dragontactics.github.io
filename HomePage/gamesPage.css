@@ -1,0 +1,85 @@
+#gamesGrid {
+    display: grid;
+
+    grid-template-columns: 70%;
+    grid-template-rows: auto 80px;
+    grid-auto-rows: auto;
+    row-gap: 40px;
+
+    margin-top: 20px;
+    margin-left: 22%;
+
+}
+
+#headerTitle {
+    font-size: 60px;
+}
+
+
+
+#resultsOfSearchFlex {
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 50px;
+}
+
+.bubbleItem {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 90px;
+    border-radius: 63px;
+
+    user-select: none;
+
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    
+}
+
+.bubbleItem:hover {
+    transform: scale(1.1);
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.bubbleItem:active {
+    transform: scale(1.05);
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.imgDiv{
+    border-style: none;
+}
+
+.gamePic {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+}
+
+
+.title {
+    height: 80px;
+    width: 300px;
+
+    border-style: none;
+
+    background-color: rgb(91, 91, 91);
+
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+#blank {
+    height: 300px;
+    width: 500px;
+}

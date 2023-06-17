@@ -1,0 +1,18 @@
+[
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "gameName" : "Game 1"
+    },
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "gameName" : "Game 2"
+    },
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "gameName" : "Game 3"
+    },
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "gameName" : "Game 4"
+    }
+]

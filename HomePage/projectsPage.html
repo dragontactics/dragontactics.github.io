@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+</head>
+<body>
+    <link rel="stylesheet" type = "text/css" href="topBarStyle.css">
+    <link rel="stylesheet" type = "text/css" href="projectPage.css">
+    <link rel="stylesheet" type = "text/css" href="searchBar.css">
+
+    <div class = "topBarBox">
+        <div class = "topBarTabs">
+            <a href="homePage.html">Home</a>
+        </div>
+        <div class = "topBarTabs">
+            <a href="profilePage.html">Profile</a>
+        </div>
+        <div class = "topBarTabs">
+            <a href="gamesPage.html">Games</a>
+        </div>
+        <div class = "topBarTabs">
+            <a href="projectsPage.html">Projects</a>
+        </div>
+        <div class = "topBarTabs">
+            <a href="toolsPage.html">Tools</a>
+        </div>
+    </div>
+
+    <div id = "projectGrid">
+        <div id = "header">Project</div>
+
+        <form id = "searchBar">
+            <input type = "text" placeholder = "Search" id = "searchTextBox">
+            <button type="button" id = "searchButton"><img id="magEdit" src="imgs\searchMag.png"></button>
+        </form>
+
+        <div id = "flexSearchResults">
+    
+        </div>
+        <div id="blank"></div>
+
+        <script src = "pageRender/searchBar.js"></script>
+        <script type="module" src = "pageRender/projectPage.js"></script>
+
+    </div>
+</body>
+</html>

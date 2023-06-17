@@ -1,0 +1,56 @@
+[
+    {
+        "dateTime": "8/5/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(8-5-22).png",
+        "memoTitle" : "HTML to JASON Files",
+        "memoDescription" : "Very Good. So to add more bubbles just add to the json files."
+    },
+    {
+        "dateTime": "8/5/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(8-5-22).png",
+        "memoTitle" : "HTML to JSON Files",
+        "memoDescription" : "Information that was in the the bubbles are now in JSON files and are processed using javascript. So to add more bubbles just add to the json files."
+    },
+    {
+        "dateTime": "8/4/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(8-4-22).png",
+        "memoTitle" : "Adding Search bar Functionality More",
+        "memoDescription" : "Added a functional search bar that can be used to hide and show bubbles to all search bars."
+    },
+    {
+        "dateTime": "8/2/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(8-2-22).png",
+        "memoTitle" : "Adding Search bar Functionality",
+        "memoDescription" : "Added a functional search bar that can be used to hide and show bubbles."
+    },
+    {
+        "dateTime": "7/29/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(7-29-22)PM.png",
+        "memoTitle" : "Project and Tool Page Development",
+        "memoDescription" : "The project and tool page has been created. It includes a search bar but it is not functional at the moment. It has a flexible UI for mobile users or a smaller window."
+    },
+    {
+        "dateTime": "7/29/2022 - 2:00 AM",
+        "imgSource" : "imgs/update(7-29-22).png",
+        "memoTitle" : "Game Page Development",
+        "memoDescription" : "The game page has been created. It includes a search bar but it is not functional at the moment. It has a flexible UI for mobile users or a smaller window."
+    },
+    {
+        "dateTime": "7/27/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(7-27-22).png",
+        "memoTitle" : "Website Home Page Optimization",
+        "memoDescription" : "The home page has been optimized. It has a flexible UI for mobile users or a smaller window."
+    },
+    {
+        "dateTime": "7/26/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(7-26-22).png",
+        "memoTitle" : "Website Development Page",
+        "memoDescription" : "The website has a profile page now. It has a flexible UI for mobile users or a smaller window."
+    },
+    {
+        "dateTime": "7/24/2022 - 10:00 PM",
+        "imgSource" : "imgs/update(7-24-22).png",
+        "memoTitle" : "Website Development Page",
+        "memoDescription" : "The website has the home page with stuff that could be useful. This also is good practice for developing webpages."
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "header" : "Project 1",
+        "description" : "Filler words for now. It will contain a useful description of what the project is about."
+    },
+    {
+        "imgSource" : "imgs\\placeHolderImage.png",
+        "header" : "Project 2",
+        "description" : "Filler words for now. It will contain a useful description of what the project is about."
+    }
+
+
+]

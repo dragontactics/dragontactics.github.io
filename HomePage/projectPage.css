@@ -1,0 +1,96 @@
+#projectGrid{
+    display: grid;
+    grid-template-columns: 70%;
+    grid-template-rows: auto 80px;
+    grid-auto-rows: auto;
+
+    margin-top: 20px;
+    margin-left: 23%;
+    row-gap: 40px;
+}
+
+#header {
+    font-size: 60px;
+}
+
+#flexSearchResults{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.bubbleItem{
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border-radius: 30px;
+
+    background-color: rgb(201, 201, 201);
+
+    height: auto;
+    width: auto;
+
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    user-select: none;
+
+    margin-left: 20px;
+}
+
+.bubbleFlex:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    transform: scale(1.02);
+    border: 3px solid white;
+}
+
+.bubbleFlex:active{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+    transform: scale(1.01);
+    border: 1px solid white;
+}
+
+.projectImg{
+    height: 150px;
+    width: 250px;
+    object-fit:fill;
+
+    border-radius: 30px;
+
+    object-position: 50% 50%;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightBubbleGrid{
+    display: grid;
+    grid-template-columns: minmax(320px, 35vw);
+    grid-template-rows: auto minmax(120px, 100%);
+}
+
+.title{
+    color: black;
+    font-size: clamp(30px, 2vw, 50px);
+    padding-left: 20px;
+    text-indent: 2%;
+}
+
+.bubbleDescription{
+    color: rgb(111, 111, 111);
+    text-indent: 40px;
+    font-size: clamp(18px, 1.5vw, 21px);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#blank{
+    height: 300px;
+}
