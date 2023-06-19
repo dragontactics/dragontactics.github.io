@@ -40,14 +40,14 @@
     margin-left: 20px;
 }
 
-.bubbleFlex:hover{
+.bubbleItem:hover{
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
     transform: scale(1.02);
     border: 3px solid white;
 }
 
-.bubbleFlex:active{
+.bubbleItem:active{
     transition-timing-function: ease-in-out;
     transition-duration: 0.2s;
     transform: scale(1.01);
